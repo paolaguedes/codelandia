@@ -1,6 +1,8 @@
-# codelandia
-👩‍💻 Um desafio Codelandia 
+## Codelandia blog
+- 👩‍💻 Meu primeiro desafio da comunidade Codelandia 
 
+- Faça parte também ->https://discord.com/invite/QevDJqCzaY
+ 
 
-veja pelo link https://paolaguedes.github.io/codelandia/
+Veja o site https://paolaguedes.github.io/codelandia/
 
