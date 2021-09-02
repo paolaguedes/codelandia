@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+body {
+    background-color: #f3f5f7;
+}
+
+header {
+    background: linear-gradient(to right,#574ae8, #3ea1db);
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+    width: 100%;
+    margin: 41px auto;
+    height: 968px;
+    justify-content: space-between;
+}
+
+.header-content nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-content nav h3 {
+    color: #e5e5e5;
+    font-size: 1.5rem;
+    line-height: 30px;
+}
+
+.header-content form .blocoIcon {
+    width: 100%;
+    max-width: 900px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255,0.1);
+    height: 65px;
+    display: flex;
+    align-items: center;
+}
+
+.header-content form .blocoIcon img {
+    margin-left: 18px;
+}
+
+.header-content form .blocoIcon input {
+    background: transparent;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    border: transparent;
+    line-height: 21.78px;
+    margin-left: 20px;
+    width: 100%;
+    max-width: calc(100% - 85px);
+}
+
+.header-content form .blocoIcon input::placeholder {
+    color:rgba(255, 255, 255,0.5);
+}
+
+.header-content form .blocoIcon input:focus {
+    border: 0 none;
+    outline: 0;
+    box-shadow: 0 0 0 0;
+    background: none;
+}
+
+.header-content form .blocoIcon input:hover {
+    border: 0 none;
+    outline: 0;
+    box-shadow: 0 0 0 0;
+}
+
+/* main */
+
+.card-container {
+    filter: drop-shadow(0 3px 10px rgba(0, 0, 0,0.1) );
+    background-color: #ffffff ;
+    max-width: 900px;
+    width: 100%;
+    border-radius: 7px;  
+    margin: 0 auto 50px;
+}
+
+.card-container .card-content {
+    padding: 25px;
+}
+
+.card-container .card-content .card-content_header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 22px;
+}
+
+.card-container .card-content .card-content_header p {
+    color: #b6b6b6;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.card-container .card-content h2 {
+    color: #313131;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 32.5px;
+    margin-bottom: 8px;
+}
+
+.card-container .card-content p {
+    color: #b6b6b6;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 100;
+}
+
+/* medias / responsivo */
+
+@media (max-width: 900px) {
+
+    header {
+        margin-bottom: 50px;
+        width: 100%;
+        height: 200px;
+    }
+
+    .header-content {
+        margin: 48px auto;
+        max-width: 700px;
+        width: 100%;
+        height: 112px;
+    }
+
+    .header-content nav {
+        width: 100%;
+        height: 23px;
+    }
+
+    .header-content nav h3 {
+        font-size: 18px;
+        line-height: 22,5px;
+    }
+
+    .header-content form .blocoIcon {
+        width: 100%;
+        height: 40px;
+        padding: 25px 0px 24px 0px;
+    }
+
+    .header-content form .blocoIcon input {
+        font-size: 16px;
+    }
+
+    main{
+        margin: 0 20px;
+    }
+}
+    
+@media (max-width: 700px) {
+    .header-content {
+        margin: 48px auto;
+        max-width: 600px;
+        width: 100%;
+        height: 112px;
+    }
+}
+
+@media (max-width: 620px) {
+    .header-content {
+        margin: 48px auto;
+        max-width: 400px;
+        width: 100%;
+        height: 112px;
+    }
+}
+
+@media (max-width: 450px) {
+    .header-content {
+        margin: 48px auto;
+        max-width: 300px;
+        width: 100%;
+        height: 112px;
+    }
+}
